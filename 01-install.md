@@ -52,7 +52,7 @@ Python 2 as the course material is based on it.
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Type "python" into the terminal
 
  
 
