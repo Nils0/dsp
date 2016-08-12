@@ -67,7 +67,7 @@ What does `xargs` do? Give an example of how to use it.
 
 xargs can be used to buid and execute commands from standard input. Example:  
   
-$ find / -name '*.text* | xargs rm  
+$ find / -name '"*".text' | xargs rm  
   
 This removes all the text files.
 
