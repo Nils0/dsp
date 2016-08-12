@@ -65,7 +65,11 @@ ls -1 = displays each enty on a line
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs can be used to buid and execute commands from standard input. Example:  
+  
+$ find / -name '*.text* | xargs rm  
+  
+This removes all the text files.
 
  
 
