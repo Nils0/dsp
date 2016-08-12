@@ -28,12 +28,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls = list all files and foldes in pwd
-ls -a = same as ls but also showing hidden file beginning with a dot
-ls -l = Detailed list incl. date of last changes and file size
-ls -lh = Detailed list, human readable (very similar to ls -l but with unit suffixes)
-ls -lah = similar as ls -lh but now including the hidden files beginning with a dot
-ls -t = list files and folders and sort by time modified (most recently modified first) before sorting the operands by lexicographical order
+ls = list all files and foldes in pwd  
+ls -a = same as ls but also showing hidden file beginning with a dot  
+ls -l = Detailed list incl. date of last changes and file size  
+ls -lh = Detailed list, human readable (very similar to ls -l but with unit suffixes)  
+ls -lah = similar as ls -lh but now including the hidden files beginning with a dot  
+ls -t = list files and folders and sort by time modified (most recently modified first) before sorting the operands by lexicographical order  
 ls -Glp = once again the list but with colourized output (G), detailed lsit (l) and write a "/" after each file if that file is a directory (p)
 
 
