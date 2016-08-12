@@ -13,7 +13,17 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd = Print working directory  
+mkdir = make directory  
+cd = change directory  
+ls = list of elements on current directory  	
+cp = copy a file or directory  
+pipe: | = takes the output from the comand from the right and „pipes“ it to the command on the right  
+> = take the output from the command on the left side and writes it tot he file on the right  
+* = matches anything in a wildcard like *.txt  
+find . –name  „ „ = find in pwd files with respetive name (e.g. „*.txt“)  
+cat > somefile = cat reads whatever you type and write it to somefile  
+
 
 ---
 
