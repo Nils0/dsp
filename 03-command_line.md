@@ -53,7 +53,11 @@ ls -Glp = once again the list but with colourized output (G), detailed lsit (l) 
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -d = show directories only  
+ls -m = displays names as a comma seperate list  
+ls -R = displays subdirectories as well
+ls -u = displays files by the file access times
+ls -1 = displays each enty on a line  
 
 ---
 
