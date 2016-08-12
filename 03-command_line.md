@@ -69,7 +69,7 @@ xargs can be used to buid and execute commands from standard input. Example:
   
 $ find / -name '*.text' | xargs rm  
   
-This removes all the text files. Test
+This removes all the text files.
 
 
  
