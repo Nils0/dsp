@@ -50,10 +50,9 @@ Lambda is a tool to create functions. I.e. we can either use def or lambda to de
 student_tuples = [
         ('john', 'A', 15),
         ('jane', 'B', 12),
-        ('dave', 'B', 10),
+        ('dave', 'B', 10)
 ]
->>> sorted(student_tuples, key=lambda student: student[2])   # sort by age
-[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+ sorted(student_tuples, key=lambda student: student[2])   # this sorts the student tuples by their age.
 
 
 ---

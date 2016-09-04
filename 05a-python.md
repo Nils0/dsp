@@ -50,9 +50,9 @@ Lambda is a tool to create functions. I.e. we can either use def or lambda to de
 student_tuples = [
         ('john', 'A', 15),
         ('jane', 'B', 12),
-        ('dave', 'B', 10),
+        ('dave', 'B', 10)
+]
  sorted(student_tuples, key=lambda student: student[2])   # this sorts the student tuples by their age.
-
 
 
 ---
@@ -61,7 +61,39 @@ student_tuples = [
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehension is a concept to construct lists in an easy way similar to defining sets in mathematics.
+
+Example 1:
+
+Scomp = [x**2 for x in range (5)]
+
+Equivalent with 'map':
+
+Smap = map(lambda x: x**2 , range(5))
+
+Example 2:
+
+Scomp2 =  [x for x in range (5) if x%2==0]
+
+Equivalent with 'filter'
+
+Sfilt = filter(lambda x: x%2==0, range(5))
+
+Comparison of capabilities:
+
+'map' maps the (lambda) function to each element of the list sequence and returns the list with each element changed with the function. Filter on the other hand only returns those values that are True based on the (lambda) function handed to the filter function as an argument.
+
+Set comprehension example:
+
+s = { x for x in range(10) }
+
+Dictionary comprehension example:
+
+keys = ['a','b','c']
+values = [1,2,3]
+
+Dictcomp = {k:v for (k,v)in zip(keys, values)}
+
 
 ---
 
@@ -71,12 +103,11 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 Use Python to compute days between start and stop date.   
 a.  
 
-```
+
 date_start = '01-02-2013'    
 date_stop = '07-28-2015'
-```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+Answer: 937 days, for code see q5_datetime.py 
 
 b.  
 ```
@@ -84,7 +115,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513 days, for code see q5_datetime.py
 
 c.  
 ```
