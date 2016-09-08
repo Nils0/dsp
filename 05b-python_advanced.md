@@ -55,6 +55,8 @@ warren@upenn.edu
 bryanma@upenn.edu
 ```
 
+Comment: I somehow couldn't get rid of the "," in every line - do you know how this could be fixed?
+
 ---
 
 ### Part III - Dictionary
@@ -66,7 +68,9 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+Putt : [' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']
+Feng : [' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']
+Bilker : ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
@@ -76,7 +80,9 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+('Yimei', 'Li') : [' Ph.D.', 'Assistant Professor of Biostatistics', 'liy3@email.chop.edu']
+('Hongzhe', 'Li') : [' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu']
+('Justine', 'Shults') : [' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
