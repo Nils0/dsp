@@ -21,7 +21,7 @@ with open('faculty.csv', 'rb') as f:
 				faculty_dict[name]=[faculty_dict[name], info]
 			second_namesl.append(name)
 
-
+print "Question 6: "
 j=0
 for i in faculty_dict:
 	if j<=2:
@@ -44,13 +44,30 @@ with open('faculty.csv', 'rb') as f:
 			name = (first_name, second_name)
 			info = [row[1], row[2], row[3]]
 			professor_dict[name]=info
-			
-j=0
-for i in professor_dict:
-	if j<=2:
-		print i, ":", professor_dict[i]
-		j += 1
 
+
+print "Question 7:"			
+j=0
+it = iter(sorted(professor_dict.iteritems()))
+while j<=2:
+	print it.next()
+	j += 1
 
 
 # question 8
+
+keylist = sorted(professor_dict)
+keylist = sorted(keylist, key = lambda x: x[1])
+
+print "Question 8:"
+j=0
+while j<=2:
+	print keylist[j], " : ", professor_dict[keylist[j]]
+	j+=1
+
+
+
+
+# print it.next()
+
+
